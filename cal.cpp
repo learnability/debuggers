@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 
-//ashok worked here
+//ashok23 worked here
 
 
 //function to add two double precision numbers
