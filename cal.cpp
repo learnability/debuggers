@@ -4,7 +4,6 @@ using namespace std;
 
 //ashok worked here
 
-
 //function to add two double precision numbers
 
 double add(double a, double b)
