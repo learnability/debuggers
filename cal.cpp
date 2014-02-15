@@ -4,7 +4,11 @@ using namespace std;
 
 //ashok worked here
 
+<<<<<<< HEAD
 //suraj jsjksadsasdjka
+=======
+//suraj202221313564984984
+>>>>>>> 0319a90ee778f13b72934f0119dae0cc7a2bb79b
 //function to add two double precision numbers
 
 double add(double a, double b)
