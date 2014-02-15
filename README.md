@@ -8,4 +8,6 @@ Division
 Power(a^b)
 Mod(remainder) "works also with floating point numbers"
 
+Addition function accepts two parameters of the type double
+
 
