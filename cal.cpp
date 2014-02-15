@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 
-//aashish worked here
+//Suraj worked here
 
 
 //function to add two double precision numbers
@@ -31,7 +31,6 @@ double sub(double a, double b)
 {
 	return a-b; 	//returning the difference
 }
-
 
 //MAIN FUNCTION
 int main()
