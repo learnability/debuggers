@@ -2,9 +2,9 @@
 #include<cmath>
 using namespace std;
 
-//ashok75 worked here
+//ashok worked here
 
-//suraj
+//suraj jsjksadsasdjka
 //function to add two double precision numbers
 
 double add(double a, double b)
