@@ -38,10 +38,10 @@ char c;
 double a,b;
 do
 {
-cout<<"\nMENU\n1.Add 2 Numbers\n2.Subtract 2 Numbers\n3.Multiply 2 Numbers\n4.Divide 2 Numbers\n5.Power(x^y)\n6.Exit\n";
+cout<<"\nMENU\n1.Add 2 Numbers\n2.Subtract 2 Numbers\n3.Multiply 2 Numbers\n4.Divide 2 Numbers\n5.Power(x^y)\n6.Mod-function(remainder)\n7.Exit\n";
 cout<<"Enter your choice:\n";
 cin>>c;
-if( c=='1'||c=='2'||c=='3'||c=='4'||c=='5' )
+if( c>='1'&&c<='6')
 	{
 	cout<<"Enter Two Numbers:\n";
 	cin>>a>>b;
@@ -57,9 +57,10 @@ case '4':	if(b)
 			cout<<"Division by Zero not possible";
 		break;
 case '5':   cout<<"Ans="<<pow(a,b);break;
-case '6':	break;
+case '6':   cout<<"Ans="<<fmod(a,b);break;
+case '7':	break;
 default : 	cout<<"Wrong Choice!! Enter Again";
 }
-}while(c!='6');
+}while(c!='7');
 return 0;
 }
