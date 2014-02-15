@@ -14,14 +14,13 @@ if( c=='1'||c=='2'||c=='3'||c=='4' )
 	cout<<"Enter Two Numbers";
 	cin>>a>>b;
 	}
-cout<<"Ans=";
 switch(c)
 {
-case '1':	add(a,b);break;
-case '2':	sub(a,b);break;
-case '3':	mul(a,b);break;
+case '1':	cout<<"Ans="<<add(a,b);break;
+case '2':	cout<<"Ans="<<sub(a,b);break;
+case '3':	cout<<"Ans="<<mul(a,b);break;
 case '4':	if(b)
-			div(a,b);
+			cout<<"Ans="<<div(a,b);
 		else	
 			cout<<"Division by Zero not possible";
 		break;
