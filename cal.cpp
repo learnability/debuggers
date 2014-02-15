@@ -17,11 +17,11 @@ if( c=='1'||c=='2'||c=='3'||c=='4' )
 cout<<"Ans=";
 switch(c)
 {
-case '1':	/*add(a,b);*/a+b;break;
-case '2':	/*sub(a,b);*/a-b;break;
-case '3':	/*mul(a,b);*/a*b;break;
+case '1':	add(a,b);break;
+case '2':	sub(a,b);break;
+case '3':	mul(a,b);break;
 case '4':	if(b)
-			/*div(a,b);*/a/b;
+			div(a,b);
 		else	
 			cout<<"Division by Zero not possible";
 		break;
